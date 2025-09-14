@@ -1,6 +1,4 @@
 import React from "react";
-import { FaGraduationCap } from "react-icons/fa";
-import { MdSchool } from "react-icons/md";
 
 const Education = () => {
   return (
@@ -25,7 +23,6 @@ const Education = () => {
           {/* MCA */}
           <div className="bg-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
             <div className="flex items-center mb-4">
-              <FaGraduationCap className="text-pink-400 text-3xl mr-4" />
               <h3 className="text-2xl font-semibold">
                 Master of Computer Applications (MCA)
               </h3>
@@ -43,7 +40,6 @@ const Education = () => {
           {/* BCA */}
           <div className="bg-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
             <div className="flex items-center mb-4">
-              <FaGraduationCap className="text-pink-400 text-3xl mr-4" />
               <h3 className="text-2xl font-semibold">
                 Bachelor’s in Computer Applications (BCA)
               </h3>
@@ -61,7 +57,6 @@ const Education = () => {
           {/* High School */}
           <div className="bg-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
             <div className="flex items-center mb-4">
-              <MdSchool className="text-pink-400 text-3xl mr-4" />
               <h3 className="text-2xl font-semibold">High School Education</h3>
             </div>
             <p className="text-pink-400 font-medium">

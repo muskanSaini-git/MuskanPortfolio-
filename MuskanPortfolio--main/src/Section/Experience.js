@@ -32,7 +32,6 @@ const Experience = () => {
         "Working on client projects including V2 Retail e-commerce platform",
         "Developing scalable components and implementing state management solutions",
         "Optimizing application performance and ensuring cross-browser compatibility",
-        "Participating in code reviews and maintaining high code quality standards",
         "Working on HRMS, SRM_Saathi, and Articles Master projects",
       ],
     },

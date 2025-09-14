@@ -1,8 +1,7 @@
 // src/components/Header.js
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-const Header = () => {
+const Hero = () => {
   return (
     <header className="bg-gradient-to-r from-purple-600 via-blue-500 to-pink-600 text-white py-12 sm:py-16">
       <div className="container mx-auto flex flex-col items-center md:flex-row justify-between space-y-8 md:space-y-0 px-4 sm:px-8 lg:px-16">
@@ -25,7 +24,7 @@ const Header = () => {
               className="hover:text-pink-400"
               aria-label="GitHub"
             >
-              <FaGithub className="text-2xl sm:text-3xl" />
+              <span className="text-2xl sm:text-3xl">🐙</span>
             </a>
             {/* LinkedIn Link */}
             <a
@@ -35,7 +34,7 @@ const Header = () => {
               className="hover:text-pink-400"
               aria-label="LinkedIn"
             >
-              <FaLinkedin className="text-2xl sm:text-3xl" />
+              <span className="text-2xl sm:text-3xl">💼</span>
             </a>
             {/* Contact Me Button */}
             <a
@@ -87,4 +86,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Hero;
